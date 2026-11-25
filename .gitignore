@@ -1,0 +1,7 @@
+build/
+build-*/
+*.user
+CMakeLists.txt.user*
+*.autosave
+.vscode/
+.idea/
