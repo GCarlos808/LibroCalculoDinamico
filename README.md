@@ -1,4 +1,4 @@
-# Libro de Calculo Dinamico (tipo Excel) - CCC208
+# Libro de Calculo Dinamico (tipo Excel) - CCC808
 
 Proyecto Final de Programacion 3 (C++ / Qt Widgets + Qt Charts). Grupo de 5.
 
