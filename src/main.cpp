@@ -1,12 +1,17 @@
 #include <QApplication>
-#include <QLabel>
+#include <QFont>
+#include <QStyleFactory>
 
-// reemplazar por VentanaPrincipal cuando exista su .cpp
+#include "VentanaPrincipal.h"
+
 int main(int argc, char* argv[])
 {
     QApplication app(argc, argv);
-    QLabel etiqueta("Libro de Calculo Dinamico - esqueleto");
-    etiqueta.resize(320, 80);
-    etiqueta.show();
+    QApplication::setStyle(QStyleFactory::create("Fusion"));
+    app.setFont(QFont("Segoe UI", 10));
+    app.setApplicationName("Libro de Cálculo Dinámico");
+
+    VentanaPrincipal ventana;
+    ventana.show();
     return app.exec();
 }

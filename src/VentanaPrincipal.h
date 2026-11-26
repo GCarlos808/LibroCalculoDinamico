@@ -56,6 +56,9 @@ private:
     QDockWidget* panelGraficos;
     GraficoEstadistico* grafico;
     QString rutaActual;
+
+    void crearMenuPrincipal();
+    void aplicarEstilo();
 };
 
 #endif // VENTANAPRINCIPAL_H
